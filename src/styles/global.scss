@@ -1,0 +1,53 @@
+view,
+scroll-view,
+swiper,
+swiper-item,
+cover-view,
+cover-image,
+icon,
+text,
+rich-text,
+progress,
+button,
+checkbox,
+form,
+input,
+label,
+radio,
+slider,
+switch,
+textarea,
+navigator,
+audio,
+camera,
+image,
+video {
+  box-sizing: border-box;
+}
+image {
+  will-change: transform;
+  display: block;
+}
+
+view,
+text {
+  font-size: 28rpx;
+  font-family: Noto Sans S Chinese;
+  font-weight: 400;
+}
+
+.wrapper-container {
+  height: 100vh;
+  background-color: #f5f5f5;
+  position: relative;
+
+  .content-container {
+    padding: 20rpx;
+  }
+}
+
+.word-eclipse {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
